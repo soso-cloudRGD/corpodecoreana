@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Corpo de Coreana — Emagreça Depois dos 40 do Jeito Coreano (ebook)</title>
+<meta name="description" content="O método coreano do Kim Dojun para emagrecer depois dos 40 sem dieta e sem passar fome: comida de verdade, 8 chás, 9 hábitos e plano de 30 dias. Ebook em PDF, acesso na hora." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#F4F8F1;--bg-2:#E9F1E3;--card:#FFFFFF;--ink:#2C3A2E;--ink-soft:#788B74;
+  --green:#5E9A6A;--green-deep:#3F7A50;--green-soft:#E4F0DE;--green-line:#D2E4CB;
+  --gold:#C6A44F;--gold-soft:#F4EBD3;--red:#C25B4E;
+  --cta:linear-gradient(135deg,#5E9A6A 0%,#7CB983 55%,#9AD0A0 100%);
+  --radius:22px;--radius-sm:14px;
+  --shadow:0 22px 50px -22px rgba(63,122,80,.42);
+  --shadow-soft:0 10px 30px -16px rgba(63,122,80,.32);
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{font-family:'Poppins',sans-serif;color:var(--ink);
+  background:radial-gradient(1200px 600px at 50% -8%, #DCEBD4 0%, rgba(220,235,212,0) 55%),linear-gradient(180deg,var(--bg) 0%, var(--bg-2) 100%);
+  background-attachment:fixed;line-height:1.62;min-height:100vh;overflow-x:hidden;padding-bottom:80px}
+h1,h2,h3,.serif{font-family:'Fraunces',serif;line-height:1.12;letter-spacing:-.01em}
+img{max-width:100%;display:block}
+button{font-family:inherit;cursor:pointer;border:none}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.narrow{max-width:640px;margin:0 auto}
+section{padding:54px 0}
+.sec-tag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--green-deep);margin-bottom:12px}
+h2.title{font-size:clamp(23px,4.4vw,35px);font-weight:600;margin-bottom:14px;line-height:1.18}
+.sub{font-size:clamp(14px,1.7vw,16px);color:#546b52}.sub b{color:var(--ink)}
+.center{text-align:center}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;
+  background:var(--cta);color:#fff;font-weight:700;font-size:17px;text-decoration:none;
+  padding:18px 24px;border-radius:99px;box-shadow:var(--shadow);text-align:center;border:2px solid rgba(255,255,255,.55)}
+.btn:active{transform:translateY(1px)}
+.btn.big{font-size:18px;padding:20px 26px}
+.btn .arrow{transition:transform .2s}.btn:hover .arrow{transform:translateX(4px)}
+.pulse{animation:pulse 2.2s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 18px 40px -18px rgba(63,122,80,.55)}50%{box-shadow:0 18px 52px -10px rgba(63,122,80,.8)}}
+
+.grid2{display:grid;gap:34px;align-items:center}
+@media(min-width:860px){ section{padding:82px 0} .grid2{grid-template-columns:1fr 1fr;gap:60px} }
+
+/* HERO */
+.hero{padding-top:26px}
+@media(min-width:860px){ .hero{padding-top:50px} }
+.eyebrow{display:inline-flex;align-items:center;gap:7px;background:#fff;border:1px solid var(--green-line);color:var(--green-deep);font-size:12px;font-weight:600;padding:8px 15px;border-radius:99px;box-shadow:var(--shadow-soft);margin-bottom:16px}
+.hero-grid{display:grid;gap:26px;grid-template-areas:"headline" "vsl" "cta"}
+.h-headline{grid-area:headline}.h-vsl{grid-area:vsl}.h-cta{grid-area:cta}
+.h-headline,.h-cta{text-align:center}
+@media(min-width:860px){
+  .hero-grid{grid-template-columns:1.05fr .95fr;column-gap:42px;row-gap:14px;align-items:center;grid-template-areas:"vsl headline" "vsl cta"}
+  .h-headline,.h-cta{text-align:left}
+}
+.hero h1{font-size:clamp(26px,4.7vw,44px);font-weight:600;margin-bottom:13px}
+.hero h1 .hl{background:linear-gradient(120deg,var(--green-deep),#7CB983);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero .sub{margin-bottom:16px}
+.mini-trust{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:12px;color:var(--ink-soft);justify-content:center;margin-top:4px}
+@media(min-width:860px){ .mini-trust{justify-content:flex-start} }
+.mini-trust span{display:inline-flex;align-items:center;gap:5px}.mini-trust b{color:var(--ink)}
+
+/* VSL */
+.vsl{position:relative;border-radius:18px;overflow:hidden;box-shadow:var(--shadow);background:#1f2b21;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center}
+.vsl video{width:100%;height:100%;object-fit:cover;background:#1f2b21}
+
+/* faixa estatística */
+.band{background:linear-gradient(135deg,#2F4A38,#3F7A50);color:#fff}
+.band-in{text-align:center;padding:44px 0}
+.band .sec-tag{color:#BFE3B7}
+.band h2{font-size:clamp(21px,3.6vw,30px);font-weight:600;margin-bottom:6px;color:#fff}
+.band p{font-size:14px;color:#DCEBD4;max-width:560px;margin:8px auto 0}
+.stats2{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:460px;margin:22px auto 0}
+.statbox{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:16px;padding:18px 12px;text-align:center;backdrop-filter:blur(4px)}
+.statbox .n{font-family:'Fraunces';font-size:clamp(32px,8vw,44px);font-weight:700;line-height:1;color:#fff}
+.statbox.br .n{color:#FFC9B0}
+.statbox small{display:block;font-size:11.5px;color:#DCEBD4;margin-top:7px;line-height:1.3}
+
+/* "depois dos 40" — mecanismo */
+.why-grid{display:grid;gap:13px;margin-top:24px}
+@media(min-width:760px){ .why-grid{grid-template-columns:1fr 1fr} }
+.why-card{background:#fff;border:1px solid var(--green-line);border-left:4px solid var(--green);border-radius:14px;padding:17px 18px;box-shadow:var(--shadow-soft)}
+.why-card h4{font-family:'Fraunces';font-size:16px;font-weight:600;margin-bottom:5px}
+.why-card p{font-size:13px;color:#546b52;line-height:1.5}
+.relief{text-align:center;font-family:'Fraunces';font-size:clamp(16px,2.3vw,21px);color:var(--green-deep);font-weight:600;margin-top:26px;line-height:1.4}
+
+/* substituição + pilares */
+.subs{display:grid;gap:9px;margin:22px auto 0;max-width:540px}
+.subrow{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;background:#fff;border:1px solid var(--green-line);border-radius:12px;padding:11px 15px;box-shadow:var(--shadow-soft);font-size:13.5px}
+.subrow .out{color:var(--red);text-decoration:line-through;opacity:.85}
+.subrow .arw{color:var(--green);font-weight:800;font-size:15px}
+.subrow .in{color:var(--green-deep);font-weight:600}
+.pillars{display:grid;grid-template-columns:repeat(2,1fr);gap:11px;margin-top:26px}
+@media(min-width:760px){ .pillars{grid-template-columns:repeat(4,1fr)} }
+.pillar{background:var(--green-soft);border-radius:14px;padding:16px 12px;text-align:center}
+.pillar .em{font-size:25px}
+.pillar b{display:block;font-size:13.5px;margin-top:6px;font-family:'Fraunces';font-weight:600}
+.pillar small{font-size:11px;color:var(--ink-soft);line-height:1.3;display:block;margin-top:2px}
+
+/* livro */
+.cover{position:relative;width:min(480px,94vw);margin:0 auto}
+.cover img{border-radius:16px;box-shadow:0 26px 50px -20px rgba(40,70,45,.42);border:1px solid rgba(255,255,255,.6)}
+.feat{margin-top:6px}
+.feat li{list-style:none;position:relative;padding-left:27px;margin-bottom:11px;font-size:14.5px;line-height:1.45}
+.feat .ck{color:var(--green);font-weight:800;position:absolute;left:0;top:1px;font-size:16px}
+.bookstats{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin-top:16px}
+.bookstat{background:#fff;border:1px solid var(--green-line);border-radius:12px;padding:11px 12px;display:flex;align-items:baseline;gap:8px;box-shadow:var(--shadow-soft)}
+.bookstat .num{font-family:'Fraunces';font-size:20px;color:var(--green-deep)}.bookstat small{font-size:11px;color:var(--ink-soft);line-height:1.2}
+
+/* antes-depois + depoimentos */
+.tlist{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;margin:20px -20px 0;padding:0 20px 8px;-webkit-overflow-scrolling:touch}
+.tlist::-webkit-scrollbar{display:none}
+@media(min-width:860px){ .tlist{display:grid;grid-template-columns:repeat(2,1fr);overflow:visible;margin:20px auto 0;padding:0;max-width:760px} }
+.tcard{flex:0 0 86%;scroll-snap-align:center;background:#fff;border:1px solid var(--green-line);border-radius:var(--radius-sm);box-shadow:var(--shadow-soft);overflow:hidden}
+@media(min-width:860px){ .tcard{flex:auto} }
+.tcard .imgbox{position:relative;background:linear-gradient(160deg,#EAF4E4,#DBEBD3);min-height:200px;display:flex;align-items:center;justify-content:center}
+.tcard .imgbox img{width:100%;display:block}
+.tcard .imgbox.vid{min-height:0;aspect-ratio:3/4;background:#1f2b21}
+.tcard .imgbox video{width:100%;height:100%;object-fit:cover;display:block}
+.tcard .badge-ad{position:absolute;top:10px;left:10px;background:rgba(63,122,80,.92);color:#fff;font-size:10px;font-weight:700;letter-spacing:.05em;padding:4px 9px;border-radius:99px;z-index:2}
+.tcard .body{padding:14px 16px}
+.tcard .stars{color:var(--gold);font-size:14px;letter-spacing:2px}
+.tcard p{font-size:13px;margin:6px 0 10px}
+.tcard .who{display:flex;align-items:center;gap:9px}
+.tcard .av{width:32px;height:32px;border-radius:50%;background:var(--cta);color:#fff;display:grid;place-items:center;font-family:'Fraunces';font-weight:700}
+.tcard .who b{font-size:13px;display:block;line-height:1.1}.tcard .who small{font-size:11px;color:var(--ink-soft)}
+.swipe-hint{text-align:center;font-size:11.5px;color:var(--ink-soft);margin-top:10px}
+@media(min-width:860px){ .swipe-hint{display:none} }
+
+/* depoimentos escritos */
+.wall{display:grid;gap:14px;margin-top:22px}
+@media(min-width:760px){ .wall{grid-template-columns:1fr 1fr} }
+.tstm{background:#fff;border:1px solid var(--green-line);border-radius:16px;padding:20px 20px 18px;box-shadow:var(--shadow-soft);position:relative;overflow:hidden}
+.tstm .qmark{position:absolute;top:6px;right:16px;font-family:'Fraunces';font-size:56px;color:var(--green-soft);line-height:1;pointer-events:none}
+.tstm .stars{color:var(--gold);font-size:14px;letter-spacing:2px}
+.tstm .quote{font-size:13.8px;color:#41513f;line-height:1.55;margin:8px 0 14px;position:relative}
+.tstm .who{display:flex;align-items:center;gap:10px}
+.tstm .av{width:40px;height:40px;border-radius:50%;background:var(--cta);color:#fff;display:grid;place-items:center;font-family:'Fraunces';font-weight:700;font-size:17px;flex:0 0 auto}
+.tstm .who b{font-size:13.5px;display:block;line-height:1.15}.tstm .who small{font-size:11px;color:var(--ink-soft)}
+
+/* Kim */
+.kimbio{background:#fff;border:1px solid var(--green-line);border-radius:var(--radius);box-shadow:var(--shadow-soft);padding:26px;text-align:center}
+@media(min-width:860px){ .kimbio{display:flex;gap:26px;text-align:left;align-items:center;padding:32px} }
+.kimbio .ph{width:120px;height:120px;border-radius:50%;overflow:hidden;border:4px solid #fff;box-shadow:var(--shadow-soft);margin:0 auto 16px;flex:0 0 auto}
+@media(min-width:860px){ .kimbio .ph{width:170px;height:170px;margin:0} }
+.kimbio .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.kimbio p{font-size:14.5px;color:#546b52;margin-top:6px}.kimbio p b{color:var(--ink)}
+.yt{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--green-line);border-radius:99px;padding:7px 14px;font-size:12.5px;font-weight:600;color:var(--ink);text-decoration:none;box-shadow:var(--shadow-soft)}
+.yt .play{width:22px;height:22px;border-radius:6px;background:#FF0000;color:#fff;display:grid;place-items:center;font-size:11px}
+
+/* hábito grátis */
+.gift{background:#fff;border:1px dashed var(--green);border-radius:var(--radius-sm);padding:22px;box-shadow:var(--shadow-soft)}
+.gift .badge{display:inline-flex;align-items:center;gap:6px;background:var(--green-soft);color:var(--green-deep);font-size:11.5px;font-weight:700;padding:5px 12px;border-radius:99px;margin-bottom:10px}
+.gift p{font-size:14px;color:#546b52}
+.evpill{display:inline-block;font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:99px;background:#E3F2DC;color:#3F7A50}
+
+/* timeline */
+.tl{position:relative;padding-left:24px;max-width:560px;margin:16px auto 0}
+.tl::before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:3px;background:var(--green-soft);border-radius:9px}
+.tl .step{position:relative;margin-bottom:16px}
+.tl .step::before{content:"";position:absolute;left:-24px;top:3px;width:13px;height:13px;border-radius:50%;background:var(--cta);box-shadow:0 0 0 4px var(--bg)}
+.tl .step b{font-size:14px}.tl .step p{font-size:13px;color:var(--ink-soft)}
+
+/* oferta */
+.offer{background:#fff;border:2px solid var(--green);border-radius:var(--radius);box-shadow:var(--shadow);padding:34px 26px;text-align:center}
+.launch{display:inline-block;background:var(--green-soft);color:var(--green-deep);font-size:11.5px;font-weight:700;padding:5px 13px;border-radius:99px;margin-bottom:12px}
+.inc{text-align:left;margin:16px 0;max-width:470px;margin-left:auto;margin-right:auto}
+.inc li{list-style:none;position:relative;padding-left:26px;margin-bottom:9px;font-size:14px;line-height:1.45}
+.inc .ck{color:var(--green);font-weight:800;position:absolute;left:0;top:1px}
+.price{margin:16px 0 4px}
+.price .big{font-family:'Fraunces';font-size:48px;color:var(--green-deep);font-weight:700;line-height:1}.price .cents{font-size:13px;color:var(--ink-soft)}
+.vs{display:flex;align-items:center;justify-content:center;gap:12px;margin:12px 0;font-size:13.5px;color:var(--ink-soft)}.vs .creme{text-decoration:line-through}.vs b{color:var(--ink)}
+.trust-row{display:flex;gap:14px;flex-wrap:wrap;color:var(--ink-soft);font-size:12px;justify-content:center;margin-top:14px}
+.trust-row span{display:inline-flex;align-items:center;gap:5px}.trust-row b{color:var(--ink)}
+
+/* garantia + por que barato juntos */
+.assure{display:grid;gap:16px;max-width:720px;margin:0 auto}
+@media(min-width:760px){ .assure{grid-template-columns:1.1fr .9fr} }
+.assure .box{background:#fff;border:1px solid var(--green-line);border-radius:var(--radius-sm);padding:22px;box-shadow:var(--shadow-soft)}
+.assure .box.g{background:#EAF4E4;border-color:#C8E4BC}
+.assure h3{font-family:'Fraunces';font-size:19px;font-weight:600;margin-bottom:8px}
+.assure p{font-size:13.5px;color:#546b52}.assure b{color:var(--ink)}
+.assure .seal{display:inline-grid;place-items:center;width:56px;height:56px;border-radius:50%;background:#fff;border:3px solid var(--green);color:var(--green-deep);font-family:'Fraunces';font-weight:700;font-size:12px;line-height:1;text-align:center;margin-bottom:10px}
+
+/* faq */
+.qa-list{display:grid;gap:11px;margin-top:16px}
+@media(min-width:860px){ .qa-list{grid-template-columns:1fr 1fr;gap:14px} }
+.qa{background:#fff;border:1px solid var(--green-line);border-radius:16px;padding:15px;box-shadow:var(--shadow-soft)}
+.qa .q,.qa .a{display:flex;gap:10px;align-items:flex-start}.qa .a{margin-top:10px}
+.qa .av{width:38px;height:38px;border-radius:50%;overflow:hidden;flex:0 0 auto;border:2px solid #fff;box-shadow:var(--shadow-soft);background:var(--green-soft);display:grid;place-items:center;font-size:18px}
+.qa .av img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.qa .av.ini{background:var(--cta);color:#fff;font-family:'Fraunces';font-weight:700;font-size:16px}
+.qa .bub{border-radius:13px;padding:9px 13px;font-size:13px;line-height:1.45}
+.qa .q .bub{background:var(--bg-2)}.qa .a .bub{background:var(--green-soft)}
+.qa .nm{font-size:11px;color:var(--ink-soft);font-weight:600;margin-bottom:3px;display:block}.qa .a .nm{color:var(--green-deep)}
+
+/* fechamento + footer */
+.close-card{background:linear-gradient(160deg,#fff,#F1F7ED);border:1px solid var(--green-line);border-radius:var(--radius);box-shadow:var(--shadow-soft);padding:32px 24px;text-align:center}
+.recap{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;margin:16px 0}
+.recap span{font-size:12.5px;color:#546b52;display:inline-flex;gap:6px;align-items:center}.recap .ck{color:var(--green);font-weight:800}
+.foot{text-align:center;font-size:11px;color:var(--ink-soft);line-height:1.6;padding:30px 0 10px}
+.foot a{color:var(--green-deep);text-decoration:none}
+
+/* sticky */
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-top:1px solid var(--green-line);box-shadow:0 -10px 30px -18px rgba(63,122,80,.5);transform:translateY(110%);transition:transform .35s ease}
+.sticky.show{transform:none}
+.sticky .in{max-width:760px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:14px}
+.sticky .pr{flex:0 0 auto;font-family:'Fraunces';font-weight:700;color:var(--green-deep);font-size:21px;line-height:1}
+.sticky .pr small{display:block;font-family:'Poppins';font-size:10px;color:var(--ink-soft);font-weight:500}
+.sticky .btn{flex:1;font-size:15px;padding:14px;max-width:380px;margin-left:auto}
+</style>
+</head>
+<body>
+
+<!-- ===================== 1. HERO ===================== -->
+<header class="hero wrap">
+  <div class="narrow center">
+    <span class="eyebrow">📗 Método coreano · livro digital · acesso na hora</span>
+    <h1>Seu corpo mudou depois dos 40. <span class="hl">Sua dieta, não</span> — por isso ela parou de funcionar.</h1>
+    <p class="sub" style="margin:0 auto 16px">O método coreano trabalha <b>a favor</b> das mudanças do seu corpo — metabolismo, hormônios, intestino — em vez de contra elas. Comida de verdade, chás e hábitos. <b>Sem passar fome, sem cortar carboidrato, sem academia puxada.</b></p>
+    <div class="mini-trust" style="justify-content:center">
+      <span>🌿 <b>100% natural</b></span>
+      <span>▶️ <b>+20 mil</b> no YouTube</span>
+      <span>↩️ <b>Garantia 7 dias</b></span>
+    </div>
+    <a class="btn pulse btn-checkout" style="max-width:420px;margin:24px auto 0" href="https://pay.hotmart.com/M106167982J?checkoutMode=10" onclick="icFire(this)">QUERO COMEÇAR AGORA <span class="arrow">→</span></a>
+  </div>
+</header>
+
+<!-- ===================== 2. NÃO É GENÉTICA (faixa) ===================== -->
+<div class="band">
+  <div class="band-in wrap">
+    <span class="sec-tag">A pergunta que muda tudo</span>
+    <h2>Por que as coreanas quase não engordam — mesmo sem "fazer dieta"?</h2>
+    <div class="stats2">
+      <div class="statbox"><span class="n">&lt;5%</span><small>de obesidade<br>na Coreia do Sul</small></div>
+      <div class="statbox br"><span class="n">22%</span><small>de obesidade<br>no Brasil</small></div>
+    </div>
+    <p>E não é genética: pesquisadores viram que coreanas que mudam de país e adotam a comida local <b>engordam</b>. Quando mantêm os hábitos coreanos, ficam no peso. Ou seja — <b>é aprendível.</b> E é isso que está dentro do guia.</p>
+  </div>
+</div>
+
+<!-- ===================== 3. O QUE MUDA DEPOIS DOS 40 ===================== -->
+<section class="wrap"><div class="narrow center">
+  <span class="sec-tag">Não é falta de força de vontade</span>
+  <h2 class="title">A dieta que funcionava aos 30 falha aos 45 — e tem explicação</h2>
+  <p class="sub">A maioria das dietas foi feita pra um corpo de 25 anos. Depois dos 40, quatro coisas mudam de vez:</p>
+</div>
+  <div class="why-grid narrow">
+    <div class="why-card"><h4>🔥 Metabolismo mais lento</h4><p>Ele cai cerca de 5% por década. O mesmo prato que não engordava aos 35 passa a engordar.</p></div>
+    <div class="why-card"><h4>💪 Menos músculo</h4><p>Perdemos massa muscular todo ano — e menos músculo significa metabolismo ainda mais devagar.</p></div>
+    <div class="why-card"><h4>🌊 Hormônios em transição</h4><p>Estrogênio, insulina e cortisol mudam — e o corpo passa a estocar gordura, principalmente na barriga.</p></div>
+    <div class="why-card"><h4>😴 Inflamação silenciosa</h4><p>Sono ruim, estresse e ultraprocessados travam o emagrecimento sem você perceber.</p></div>
+  </div>
+  <p class="relief narrow">Você não estava errada. Estava usando o mapa da cidade errada. 🌿</p>
+</section>
+
+<!-- ===================== 4. O MÉTODO: NÃO CORTA, SUBSTITUI ===================== -->
+<section class="wrap"><div class="narrow center">
+  <span class="sec-tag">Como o método funciona</span>
+  <h2 class="title">Ele não corta o que você gosta. Ele troca por uma versão que emagrece.</h2>
+  <p class="sub">Uma substituição por semana — sem choque, sem privação. Em poucos meses, sua alimentação mudou sozinha:</p>
+</div>
+  <div class="subs">
+    <div class="subrow"><span class="out">Refrigerante</span><span class="arw">→</span><span class="in">Chá de cevada gelado</span></div>
+    <div class="subrow"><span class="out">Pão branco</span><span class="arw">→</span><span class="in">Batata doce ou arroz integral</span></div>
+    <div class="subrow"><span class="out">Biscoito</span><span class="arw">→</span><span class="in">Iogurte natural com fruta</span></div>
+    <div class="subrow"><span class="out">Sobremesa industrializada</span><span class="arw">→</span><span class="in">Fruta + mel + canela</span></div>
+    <div class="subrow"><span class="out">Beliscar o dia todo</span><span class="arw">→</span><span class="in">3 refeições + chá entre elas</span></div>
+  </div>
+  <div class="pillars narrow">
+    <div class="pillar"><div class="em">🥢</div><b>Comer devagar</b><small>saciedade a tempo</small></div>
+    <div class="pillar"><div class="em">🥗</div><b>Prato equilibrado</b><small>sem pesar nada</small></div>
+    <div class="pillar"><div class="em">🥒</div><b>Fermentados</b><small>intestino em dia</small></div>
+    <div class="pillar"><div class="em">⏰</div><b>Ritmo</b><small>o corpo confia</small></div>
+  </div>
+</section>
+
+<!-- ===================== 5. O LIVRO ===================== -->
+<section class="wrap">
+  <div class="grid2">
+    <div>
+      <div class="cover"><img src="capa.jpg" alt="Livro Corpo de Coreana" onerror="this.onerror=null;this.src='capa.png'"></div>
+    </div>
+    <div>
+      <span class="sec-tag">Dentro do guia</span>
+      <h2 class="title">100 páginas que cabem na sua vida real</h2>
+      <ul class="feat">
+        <li><span class="ck">✓</span> <b>25 receitas coreanas</b> adaptadas pro Brasil, prontas em até 40 min</li>
+        <li><span class="ck">✓</span> Os <b>8 chás</b> que substituem o refrigerante e ajudam a desinchar</li>
+        <li><span class="ck">✓</span> Os <b>9 hábitos</b> que reequilibram o metabolismo depois dos 40</li>
+        <li><span class="ck">✓</span> <b>Desafio de 7 dias</b> + <b>plano de 30 dias</b>, com lista de compras</li>
+        <li><span class="ck">✓</span> Seção de <b>saúde</b>: diabetes, pressão alta, gastrite e tireoide</li>
+      </ul>
+      <div class="bookstats">
+        <div class="bookstat"><span class="num">25</span><small>receitas práticas</small></div>
+        <div class="bookstat"><span class="num">8</span><small>chás essenciais</small></div>
+        <div class="bookstat"><span class="num">30</span><small>dias de plano</small></div>
+        <div class="bookstat"><span class="num">∞</span><small>acesso vitalício</small></div>
+      </div>
+      <a class="btn btn-checkout" style="margin-top:18px" href="https://pay.hotmart.com/M106167982J?checkoutMode=10" onclick="icFire(this)">Quero o meu guia <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 6. DEPOIMENTOS (escrito) ===================== -->
+<section class="wrap">
+  <div class="center"><span class="sec-tag">Mulheres como você</span>
+  <h2 class="title">Quem começou conta o que mudou</h2>
+  <p class="sub narrow" style="margin:8px auto 0">O que a maioria nota primeiro: menos inchaço, mais energia — e a roupa folgando.</p></div>
+  <div class="wall">
+    <div class="tstm"><span class="qmark">”</span>
+      <div class="stars">★★★★★</div>
+      <p class="quote">"Eu já tinha desistido de dieta — toda vez passava fome e largava na primeira semana. Aqui foi diferente: comecei só trocando o refrigerante pelo chá de cevada e caminhando depois do almoço. Em duas semanas a barriga desinchou e eu acordava com muito mais disposição."</p>
+      <div class="who"><span class="av">R</span><div><b>Rosângela, 52</b><small>relato do método</small></div></div>
+    </div>
+
+    <div class="tstm"><span class="qmark">”</span>
+      <div class="stars">★★★★★</div>
+      <p class="quote">"O que me pegou foi não precisar cortar o que eu gosto. Continuei comendo arroz — só que integral — e aprendi a montar o prato do jeito do guia. A roupa foi folgando sem eu perceber. Meu marido reparou antes de mim."</p>
+      <div class="who"><span class="av">S</span><div><b>Sônia, 58</b><small>relato do método</small></div></div>
+    </div>
+
+    <div class="tstm"><span class="qmark">”</span>
+      <div class="stars">★★★★★</div>
+      <p class="quote">"Tenho pré-diabetes e sempre tive receio de fazer as coisas por conta própria. A parte de adaptações me deu segurança pra seguir junto com a minha médica, sem medo. Hoje me sinto mais leve, com mais energia e comendo comida de verdade."</p>
+      <div class="who"><span class="av">C</span><div><b>Cleusa, 55</b><small>relato do método</small></div></div>
+    </div>
+
+    <div class="tstm"><span class="qmark">”</span>
+      <div class="stars">★★★★★</div>
+      <p class="quote">"Achei que 100 páginas seria complicado, mas é tudo simples e explicado passo a passo. O plano de 30 dias me deu um caminho pra seguir sem ter que pensar. Nunca consegui manter uma dieta — esse eu mantive justamente porque não parece dieta."</p>
+      <div class="who"><span class="av">M</span><div><b>Marta, 60</b><small>relato do método</small></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 7. HÁBITO DE PRESENTE ===================== -->
+<section class="wrap"><div class="narrow">
+  <div class="gift">
+    <span class="badge">🎁 Faça hoje, de graça</span>
+    <h2 class="title" style="font-size:21px">Um dos hábitos mais poderosos do método — e não custa nada</h2>
+    <p style="margin-top:8px"><b>Caminhe 10 a 15 minutos logo depois do almoço.</b> Simples assim. Isso reduz o pico de açúcar no sangue depois de comer e ajuda o corpo a <b>queimar em vez de estocar</b>. Não precisa ser rápido — precisa ser todo dia. <span class="evpill">Evidência: FORTE</span></p>
+    <p style="margin-top:10px;color:var(--green-deep);font-weight:600">Se só esse já ajuda… imagine os outros 8 hábitos + os 8 chás + as 25 receitas. 🌿</p>
+  </div>
+</div></section>
+
+<!-- ===================== 8. QUEM É O KIM ===================== -->
+<section class="wrap">
+  <div class="kimbio">
+    <div class="ph"><img src="kim-dojun.jpg" alt="Kim Dojun" onerror="this.parentElement.style.display='none'"></div>
+    <div>
+      <span class="sec-tag">Quem está por trás</span>
+      <p>Eu sou o <b>Kim Dojun</b>. Cresci na Coreia vendo minha mãe e minha avó manterem o corpo equilibrado a vida toda <b>sem nunca fazer dieta</b> — comendo de verdade, bebendo seus chás, se movendo todo dia. Passei <b>anos estudando por que aquilo funcionava</b> e adaptando cada receita pro que a gente encontra no mercado aqui no Brasil. Hoje <b>+20 mil pessoas</b> me acompanham no YouTube. Não é dieta da moda, não é milagre — é o método que trabalha <b>com o seu corpo</b>.</p>
+      <a class="yt" href="https://www.youtube.com/@kimdojunn" target="_blank" rel="noopener" style="margin-top:14px"><span class="play">▶</span> Ver o canal · <b>+20 mil inscritos</b></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 9. LINHA DO TEMPO ===================== -->
+<section class="wrap"><div class="narrow">
+  <div class="center"><span class="sec-tag">Mês a mês</span>
+  <h2 class="title">Como costuma ser o seu primeiro mês</h2></div>
+  <div class="tl">
+    <div class="step"><b>Semana 1</b><p>Menos inchaço e mais energia ao acordar.</p></div>
+    <div class="step"><b>Semana 2</b><p>A roupa começa a folgar — mesmo antes da balança se mexer.</p></div>
+    <div class="step"><b>Semana 3</b><p>Cozinhando mais, com menos vontade de doce à tarde.</p></div>
+    <div class="step"><b>Dia 30</b><p>2 a 4kg de gordura real — e o método já virou hábito, não esforço.</p></div>
+  </div>
+  <p class="sub center" style="margin-top:14px;font-size:12.5px">Ritmo saudável é de 0,5 a 1kg por semana. Resultados variam de pessoa para pessoa.</p>
+</div></section>
+
+<!-- ===================== 10. OFERTA ===================== -->
+<section class="wrap" id="oferta"><div class="narrow">
+  <div class="offer">
+    <span class="launch">🌿 Preço de lançamento</span>
+    <h2 class="title">Leva o método completo por menos que um lanche</h2>
+    <ul class="inc">
+      <li><span class="ck">✓</span> As <b>25 receitas coreanas</b> + o prato equilibrado que emagrece</li>
+      <li><span class="ck">✓</span> Os <b>8 chás</b> (do básico ao avançado) + águas aromatizadas</li>
+      <li><span class="ck">✓</span> Os <b>9 hábitos</b> que reequilibram o metabolismo 40+</li>
+      <li><span class="ck">✓</span> <b>Desafio de 7 dias</b> e <b>plano de 30 dias</b> passo a passo</li>
+      <li><span class="ck">✓</span> Lista de compras + meal prep de 1h pra semana toda</li>
+      <li><span class="ck">✓</span> Adaptações pra <b>diabetes, pressão, gastrite e tireoide</b></li>
+      <li><span class="ck">✓</span> <b>Acesso vitalício</b>, no celular e no PC</li>
+    </ul>
+    <div class="vs"><span class="creme">1 consulta com nutri: R$ 300</span> <b>×</b> <b>o guia inteiro: R$ 29,90</b></div>
+    <div class="price"><span class="big">R$ 29,90</span><div class="cents">ou 12x de R$ 2,49 · pagamento único, acesso pra sempre</div></div>
+    <a class="btn big pulse btn-checkout" style="margin-top:14px" href="https://pay.hotmart.com/M106167982J?checkoutMode=10" onclick="icFire(this)">QUERO MEU GUIA AGORA <span class="arrow">→</span></a>
+    <div class="trust-row"><span>🔒 <b>Compra segura</b></span><span>⚡ <b>Acesso na hora</b></span><span>↩️ <b>7 dias de garantia</b></span></div>
+  </div>
+</div></section>
+
+<!-- ===================== 11. GARANTIA + POR QUE BARATO ===================== -->
+<section class="wrap">
+  <div class="assure">
+    <div class="box g">
+      <div class="seal">7<br>DIAS</div>
+      <h3>O risco é todo meu</h3>
+      <p><b>Teste por 7 dias.</b> Compre, leia, faça a caminhada e alguns chás. Se não for pra você, é só pedir o reembolso pela Hotmart — <b>100% do seu dinheiro de volta</b>, sem precisar explicar nada.</p>
+    </div>
+    <div class="box">
+      <h3>"Por que tão barato?"</h3>
+      <p>Porque o conhecimento que a minha família coreana passou por gerações <b>não devia ser luxo</b>. Deixei num preço que qualquer mulher possa pagar — <b>R$ 29,90</b>, e não R$ 300. Não é golpe: é escolha. 🌿</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 12. FAQ ===================== -->
+<section class="wrap">
+  <div class="center"><span class="sec-tag">Antes de começar</span>
+  <h2 class="title">As perguntas que sempre me fazem</h2></div>
+  <div class="qa-list">
+    <div class="qa"><div class="q"><span class="av ini">L</span><div class="bub"><span class="nm">Lúcia, 58</span>"Vou ter que passar fome ou cortar tudo que gosto?"</div></div><div class="a"><span class="av"><img src="kim-dojun.jpg" alt="" onerror="this.parentElement.textContent='🌿'"></span><div class="bub"><span class="nm">Kim Dojun</span>Não. O método não corta — substitui. Você come de verdade, com o que gosta na versão coreana. Privação não faz parte.</div></div></div>
+    <div class="qa"><div class="q"><span class="av ini">C</span><div class="bub"><span class="nm">Cleusa, 54</span>"Tenho diabetes / pressão alta. Posso seguir?"</div></div><div class="a"><span class="av"><img src="kim-dojun.jpg" alt="" onerror="this.parentElement.textContent='🌿'"></span><div class="bub"><span class="nm">Kim Dojun</span>Tem uma seção só de adaptações pra essas condições. Mas é material educativo — siga sempre junto com o seu médico.</div></div></div>
+    <div class="qa"><div class="q"><span class="av ini">S</span><div class="bub"><span class="nm">Sônia, 61</span>"Não tenho tempo de cozinhar. Dá certo mesmo assim?"</div></div><div class="a"><span class="av"><img src="kim-dojun.jpg" alt="" onerror="this.parentElement.textContent='🌿'"></span><div class="bub"><span class="nm">Kim Dojun</span>Dá. As receitas levam até 40 min e tem o meal prep de 1h no domingo que resolve a semana toda. Comecei pensando em quem tem pouco tempo.</div></div></div>
+    <div class="qa"><div class="q"><span class="av ini">I</span><div class="bub"><span class="nm">Inês, 60</span>"Como eu recebo o livro?"</div></div><div class="a"><span class="av"><img src="kim-dojun.jpg" alt="" onerror="this.parentElement.textContent='🌿'"></span><div class="bub"><span class="nm">Kim Dojun</span>Na hora, por e-mail, pela <b>Hotmart</b> (100% segura). É um PDF: você lê no celular ou no PC — e se quiser, <b>pode imprimir</b>. Acesso vitalício.</div></div></div>
+  </div>
+</section>
+
+<!-- ===================== 13. FECHAMENTO ===================== -->
+<section class="wrap"><div class="narrow">
+  <div class="close-card">
+    <h2 class="title" style="font-size:clamp(21px,3.6vw,29px)">Você pode começar a próxima dieta que vai voltar… ou o hábito que fica pra vida</h2>
+    <p class="sub" style="margin:10px 0">Por <b>R$ 29,90</b>, com o que as coreanas realmente fazem depois dos 40. A escolha é sua.</p>
+    <div class="recap">
+      <span><span class="ck">✓</span> Sem dieta e sem passar fome</span>
+      <span><span class="ck">✓</span> Comida de verdade e chás baratinhos</span>
+      <span><span class="ck">✓</span> Acesso na hora · garantia 7 dias</span>
+    </div>
+    <a class="btn big pulse btn-checkout" href="https://pay.hotmart.com/M106167982J?checkoutMode=10" onclick="icFire(this)">COMEÇAR HOJE POR R$ 29,90 <span class="arrow">→</span></a>
+  </div>
+  <div class="foot">
+    Corpo de Coreana · Kim Dojun · <a href="https://www.youtube.com/@kimdojunn" target="_blank" rel="noopener">YouTube</a><br>
+    Conteúdo educativo de alimentação e bem-estar — não substitui orientação médica ou nutricional. Kim Dojun é uma persona editorial. Depoimentos ilustrativos do método; resultados variam de pessoa para pessoa.<br>
+    <a href="termos.html">Termos &amp; Privacidade</a>
+  </div>
+</div></section>
+
+<div class="sticky" id="sticky">
+  <div class="in">
+    <div class="pr">R$ 29,90<small>pagamento único</small></div>
+    <a class="btn btn-checkout" href="https://pay.hotmart.com/M106167982J?checkoutMode=10" onclick="icFire(this)">QUERO AGORA <span class="arrow">→</span></a>
+  </div>
+</div>
+
+<script>
+function icFire(a){
+  try{ if(typeof fbq==='function') fbq('track','InitiateCheckout'); }catch(e){}
+  try{ var qs=window.location.search; if(a&&a.href&&qs.length>1&&a.href.indexOf('utm_')===-1){ a.href+=(a.href.indexOf('?')>-1?'&':'?')+qs.slice(1); } }catch(e){}
+}
+var sticky=document.getElementById('sticky'),hero=document.querySelector('.hero');
+window.addEventListener('scroll',function(){
+  if(window.scrollY > (hero ? hero.offsetHeight - 40 : 400)){ sticky.classList.add('show'); } else { sticky.classList.remove('show'); }
+},{passive:true});
+</script>
+</body>
+</html>
